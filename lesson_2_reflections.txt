@@ -25,3 +25,9 @@ beta testing. Maybe you want to see which particular implementation of some
 experimental idea actually works best while still maintaining the original code.
 Maybe there is some hypothesis in regard to efficieny or optimization, but testing is needed to see how things play out. Instead of putting a working version out of 
 commission, simply make a branch.
+
+How do diagrams help you visualize the branch structure?
+
+Pictures are worth a thousand words. By seeing how each node is related to its 
+parent gives a better understanding of how git stores and retrieves infromation.
+As well as how branches relate to the master and other branches.
