@@ -31,3 +31,8 @@ How do diagrams help you visualize the branch structure?
 Pictures are worth a thousand words. By seeing how each node is related to its 
 parent gives a better understanding of how git stores and retrieves infromation.
 As well as how branches relate to the master and other branches.
+
+What is the result of merging branches together? Why do we represent it in the diagram the way we do?
+
+The result is basically a new node with the heads of the two branches as parents. It seems like git finds the parent of the two branches, recursively compares each new node to the parent, producing a new node that contains all changes made from both branches to the parent.  This is why it is represented in the diagram in the
+particular way.
