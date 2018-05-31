@@ -48,3 +48,10 @@ through code and append and delete line after line.  If were talking about Git's
 it is nice to see for yourself what is happening and be consciously deciding how to finalize the merge.  
 While automatic merging is very time-efficient and convenient when no code collisions occur.
 
+When would you want to use a remote repository instead of keeping all 
+of your work local?
+
+You would want to use a remote repository when you want other people to view
+or work on your repository without having to come over to your house and
+borrow your computer.  Also the remote serves as a back-up, if your local 
+directory were to meet an unfotunate end, e.g., grape juice on your ssd...
