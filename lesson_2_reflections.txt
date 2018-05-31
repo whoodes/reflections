@@ -14,7 +14,8 @@ of control on when and what to commit.  Akin to any other staging area.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-By using the staging area and the git diff --staged command, you can see the changes that exist between the last commit and the file(s) in the staging area.
+By using the staging area and the git diff --staged command, you can see the changes that 
+exist between the last commit and the file(s) in the staging area.
 Making it possible to see exactly what is about to be committed.
 
 What are some situations when branches would be helpful in keeping your history
@@ -23,7 +24,8 @@ organized? How would branches help?
 Branches would be useul for experimenting with different styles, kind of like alpha
 beta testing. Maybe you want to see which particular implementation of some
 experimental idea actually works best while still maintaining the original code.
-Maybe there is some hypothesis in regard to efficieny or optimization, but testing is needed to see how things play out. Instead of putting a working version out of 
+Maybe there is some hypothesis in regard to efficieny or optimization, but testing is 
+needed to see how things play out. Instead of putting a working version out of 
 commission, simply make a branch.
 
 How do diagrams help you visualize the branch structure?
@@ -34,10 +36,15 @@ As well as how branches relate to the master and other branches.
 
 What is the result of merging branches together? Why do we represent it in the diagram the way we do?
 
-The result is basically a new node with the heads of the two branches as parents. It seems like git finds the parent of the two branches, recursively compares each new node to the parent, producing a new node that contains all changes made from both branches to the parent.  This is why it is represented in the diagram in the
+The result is basically a new node with the heads of the two branches as parents. It seems like git 
+finds the parent of the two branches, recursively compares each new node to the parent, producing a new 
+node that contains all changes made from both branches to the parent.  This is why it is represented in the diagram in the
 particular way.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
-Always doing merges manually would kind of suck, it would be time consuming and tedious to sift through code and append and delete line after line.  If were talking about Git's manual fix then it is nice to see for yourself what is happening and be consciously deciding how to finalize the merge.  While automatic merging is very time-efficient and convenient when no code collisions occur.
+Always doing merges manually would kind of suck, it would be time consuming and tedious to sift 
+through code and append and delete line after line.  If were talking about Git's manual fix then 
+it is nice to see for yourself what is happening and be consciously deciding how to finalize the merge.  
+While automatic merging is very time-efficient and convenient when no code collisions occur.
 
