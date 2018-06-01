@@ -77,3 +77,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
 The benefit is to serve as a reference point, so as to compare your working version
 against another contributors to compare and contrast the different states.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
+
+Not learning everything would be easier in the short time, but the functionality of
+Git and GitHub are tremendous in the long run.  It would be an incredible hassle to 
+send code back and forth via e-mail or something.  Then having to sift through it all, 
+compile it all together, send it back out...  Sounds terrible.
