@@ -85,3 +85,9 @@ Not learning everything would be easier in the short time, but the functionality
 Git and GitHub are tremendous in the long run.  It would be an incredible hassle to 
 send code back and forth via e-mail or something.  Then having to sift through it all, 
 compile it all together, send it back out...  Sounds terrible.
+
+When would you want to make changes in a separate branch rather than directly into
+master?  What benefit does this approach have?
+
+When working and collaborating with others.  This ensures that all changes are
+peer-reviewed and agreed upon before committing it to the working version.
