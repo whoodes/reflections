@@ -63,3 +63,12 @@ Maybe you are working on something that you might not mesh well with something t
 has been added to the remote repository, or perhaps you would like to see
 exactly what changes have been made before you update your local repository.
 Having git auto pulling updates could end up doing more harm than good.
+
+Describe the difference between forks, clones and branches.  When would you use
+one instead of the another?
+
+Forks: Cloning a repository on GitHub to your account on GitHub.
+Clones: Cloning a repository from GitHub onto your machine.
+Branches: When wanting to work on an experimental aspect / new feature / new idea 
+on a project while not tampering with the master.  Pretty much anything that constitutes
+a "branch" off from the original working project.
