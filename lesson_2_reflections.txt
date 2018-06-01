@@ -72,3 +72,8 @@ Clones: Cloning a repository from GitHub onto your machine.
 Branches: When wanting to work on an experimental aspect / new feature / new idea 
 on a project while not tampering with the master.  Pretty much anything that constitutes
 a "branch" off from the original working project.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is to serve as a reference point, so as to compare your working version
+against another contributors to compare and contrast the different states.
