@@ -55,3 +55,11 @@ You would want to use a remote repository when you want other people to view
 or work on your repository without having to come over to your house and
 borrow your computer.  Also the remote serves as a back-up, if your local 
 directory were to meet an unfotunate end, e.g., grape juice on your ssd...
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with the remote repository?
+
+Maybe you are working on something that you might not mesh well with something that
+has been added to the remote repository, or perhaps you would like to see
+exactly what changes have been made before you update your local repository.
+Having git auto pulling updates could end up doing more harm than good.
