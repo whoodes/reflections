@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Initialization creates a .git directory which is used to track files in the 
+Initialization creates a .git directory which is used to track files in the
 repository. This needs to be done to done beacuse you need to explicitly state
 what will be a repository.
 
@@ -14,47 +14,47 @@ of control on when and what to commit.  Akin to any other staging area.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-By using the staging area and the git diff --staged command, you can see the changes that 
+By using the staging area and the git diff --staged command, you can see the changes that
 exist between the last commit and the file(s) in the staging area.
 Making it possible to see exactly what is about to be committed.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-Branches would be useul for experimenting with different styles, kind of like alpha
+Branches would be useful for experimenting with different styles, kind of like alpha
 beta testing. Maybe you want to see which particular implementation of some
 experimental idea actually works best while still maintaining the original code.
 Maybe there is some hypothesis in regard to efficieny or optimization, but testing is 
-needed to see how things play out. Instead of putting a working version out of 
+needed to see how things play out. Instead of putting a working version out of
 commission, simply make a branch.
 
 How do diagrams help you visualize the branch structure?
 
-Pictures are worth a thousand words. By seeing how each node is related to its 
+Pictures are worth a thousand words. By seeing how each node is related to its
 parent gives a better understanding of how git stores and retrieves infromation.
 As well as how branches relate to the master and other branches.
 
 What is the result of merging branches together? Why do we represent it in the diagram the way we do?
 
-The result is basically a new node with the heads of the two branches as parents. It seems like git 
-finds the parent of the two branches, recursively compares each new node to the parent, producing a new 
+The result is basically a new node with the heads of the two branches as parents. It seems like git
+finds the parent of the two branches, recursively compares each new node to the parent, producing a new
 node that contains all changes made from both branches to the parent.  This is why it is represented in the diagram in the
 particular way.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
-Always doing merges manually would kind of suck, it would be time consuming and tedious to sift 
-through code and append and delete line after line.  If were talking about Git's manual fix then 
-it is nice to see for yourself what is happening and be consciously deciding how to finalize the merge.  
+Always doing merges manually would kind of suck, it would be time consuming and tedious to sift
+through code and append and delete line after line.  If were talking about Git's manual fix then
+it is nice to see for yourself what is happening and be consciously deciding how to finalize the merge.
 While automatic merging is very time-efficient and convenient when no code collisions occur.
 
-When would you want to use a remote repository instead of keeping all 
+When would you want to use a remote repository instead of keeping all
 of your work local?
 
 You would want to use a remote repository when you want other people to view
 or work on your repository without having to come over to your house and
-borrow your computer.  Also the remote serves as a back-up, if your local 
-directory were to meet an unfotunate end, e.g., grape juice on your ssd...
+borrow your computer.  Also the remote serves as a back-up, if your local
+directory were to meet an unfortunate end, e.g., grape juice on your ssd...
 
 Why might you want to always pull changes manually rather than having Git automatically
 stay up-to-date with the remote repository?
@@ -69,7 +69,7 @@ one instead of the another?
 
 Forks: Cloning a repository on GitHub to your account on GitHub.
 Clones: Cloning a repository from GitHub onto your machine.
-Branches: When wanting to work on an experimental aspect / new feature / new idea 
+Branches: When wanting to work on an experimental aspect / new feature / new idea
 on a project while not tampering with the master.  Pretty much anything that constitutes
 a "branch" off from the original working project.
 
@@ -82,8 +82,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 would be harder?
 
 Not learning everything would be easier in the short time, but the functionality of
-Git and GitHub are tremendous in the long run.  It would be an incredible hassle to 
-send code back and forth via e-mail or something.  Then having to sift through it all, 
+Git and GitHub are tremendous in the long run.  It would be an incredible hassle to
+send code back and forth via e-mail or something.  Then having to sift through it all,
 compile it all together, send it back out...  Sounds terrible.
 
 When would you want to make changes in a separate branch rather than directly into
